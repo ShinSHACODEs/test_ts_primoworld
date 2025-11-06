@@ -1,5 +1,7 @@
 # test_ts_primo
 
+TypeScript project merging 3 arrays ไปเป็น 1
+
 ```diff
 test_ts_primo/
 ├─ package.json
@@ -19,6 +21,11 @@ $ git clone https://github.com/yourusername/test_ts_primo.git
 $ cd test_ts_primo
 $ npm install
 ```
+Dependencies:
+- typescript
+- ts-node
+- mocha
+- chai
 
 ## Test Project
 ```bash
