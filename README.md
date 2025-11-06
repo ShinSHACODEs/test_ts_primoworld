@@ -1,12 +1,14 @@
 # test_ts_primo
 
+```diff
 test_ts_primo/
 ├─ package.json
 ├─ tsconfig.json
 ├─ src/
-│  └─ main.ts       # merge function 
+│  └─ main.ts       # merge function
 └─ test/
    └─ merge.test.ts # unit tests
+```
 
 **หมายเหตุ:** ไม่ใช้ `sort()`
 
@@ -20,6 +22,6 @@ $ npm install
 
 ## Test Project
 ```bash
-$ cd test_ts_primo
+$ ts-node src/main.ts
 $ npm test
 ```
