@@ -1,0 +1,20 @@
+{
+  "name": "test_ts_primo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "mocha -r ts-node/register \"test/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "chai": "^6.2.0",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.7"
+  }
+}
