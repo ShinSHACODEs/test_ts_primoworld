@@ -17,7 +17,8 @@ test_ts_primo/
 ## 📦 Installation
 
 ```bash
-$ git clone https://github.com/yourusername/test_ts_primo.git
+$ git clone
+$https://github.com/ShinSHACODEs/test_ts_primoworld.git
 $ cd test_ts_primo
 $ npm install
 ```
